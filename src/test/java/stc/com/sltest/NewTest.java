@@ -17,6 +17,8 @@ System.out.println("PARTH Comments");
 WebDriver driver=new ChromeDriver();
 driver.get("file:///D:/Satish/05DemoApps/demo.html");
 driver.findElement(By.id("fname")).sendKeys("Helllllo");
+driver.findElement(By.id("lname")).sendKeys("Byeeee");
+
 Thread.sleep(2000);
 System.out.println("DONE");
 driver.quit();
