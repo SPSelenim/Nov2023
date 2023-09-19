@@ -13,6 +13,7 @@ public class NewTest {
 	  String strChromePath="D:\\Satish\\05DemoApps\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe";	
 System.setProperty("webdriver.chrome.driver", strChromePath);
 System.out.println("----------TEST ______");
+System.out.println("PARTH Comments");
 WebDriver driver=new ChromeDriver();
 driver.get("file:///D:/Satish/05DemoApps/demo.html");
 driver.findElement(By.id("fname")).sendKeys("Helllllo");
